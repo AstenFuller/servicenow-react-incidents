@@ -2,11 +2,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background: aliceblue;
 }
 
 li {
   font: 200 20px/2 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
+  margin: 0px 20px 0px 20px;
 }
 
 li:last-child {
@@ -21,4 +23,33 @@ h2 {
   font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+h2.header {
+  text-align: center;
+  background: #c7def3;
+}
+
+.container {
+  margin: 0em 5em 0em 5em;
+}
+
+.page-button {
+  margin: 5px;
+}
+
+.selected-page-button {
+  margin: 5px;
+  background:grey;
+  color: white;
+}
+
+.description {
+  background: aliceblue;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 25px;
 }
