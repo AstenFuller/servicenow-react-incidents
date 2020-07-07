@@ -16,9 +16,6 @@ li:last-child {
 li:hover {
   background: #f6f6f6;
 }
-div {
-  width:700px;
-}
 
 h2 {
   font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
